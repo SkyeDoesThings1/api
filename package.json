@@ -1,0 +1,23 @@
+{
+    "name": "skye-api",
+    "module": "src/index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "BUN_ENV=DEV bun --watch src/index.ts",
+        "start": "BUN_ENV=PROD bun src/index.ts",
+        "prod": "bun install && BUN_ENV=PROD bun src/index.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/express": "^5.0.0"
+    },
+    "dependencies": {
+        "express": "^4.21.1",
+        "mysql2": "^3.11.4",
+        "reflect-metadata": "^0.2.2",
+        "typeorm": "^0.3.20"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
