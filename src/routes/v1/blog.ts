@@ -1,6 +1,4 @@
 import express, { type Request, type Response } from "express";
-import { BlogPost } from "@/db/entities/blog";
-import { db } from "@/db/db";
 
 const router = express.Router();
 
