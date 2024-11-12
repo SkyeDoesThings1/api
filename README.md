@@ -1,15 +1,13 @@
 # skye-api
 
-To install dependencies:
+For prod run
 
 ```bash
-bun install
+bun run prod
 ```
 
-To run:
+for dev run
 
 ```bash
-bun run src/index.ts
+bun run dev
 ```
-
-This project was created using `bun init` in bun v1.1.34. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
